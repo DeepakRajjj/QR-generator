@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    box-shadow: 0 0 10px rgba(17, 29, 112, 0.756);
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px 10px;
+}
+.container input,button{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid blue;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+button{
+    outline: 0;
+    border: none;
+    color: #ffff;
+    font-size: 18px;
+    background-color: black;
+    margin-top: 20px;
+}
+.container .qro{
+    width: 100%;
+    padding: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffff;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    padding: 50px; margin-bottom: 10px;
+}
+.qro canvas{
+    margin: 30px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 10px;
+}
+.qro img{
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(255, 190, 190); */
+    box-shadow: 0 0 10px rgba(17, 29, 112, 0.756);
+    display: flex;
+    margin: 10PX 10px;
+    padding: 30px;
+}
